@@ -1,0 +1,15 @@
+14:13:39 **** Build of configuration Debug for project kwintaTests ****
+make all 
+Building file: ../src/kwintaTests.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/kwintaTests.d" -MT"src/kwintaTests.d" -o "src/kwintaTests.o" "../src/kwintaTests.cpp"
+Finished building: ../src/kwintaTests.cpp
+ 
+Building target: kwintaTests
+Invoking: Cross G++ Linker
+g++  -o "kwintaTests"  ./src/kwintaTests.o   
+Finished building target: kwintaTests
+ 
+14:13:51 **** Incremental Build of configuration Debug for project kwintaTests ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
