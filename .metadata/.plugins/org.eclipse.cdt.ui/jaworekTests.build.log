@@ -1,6 +1,15 @@
-10:52:03 **** Incremental Build of configuration Debug for project jaworekTests ****
+12:40:57 **** Incremental Build of configuration Debug for project jaworekTests ****
 make all 
-make: Nie ma nic do zrobienia w `all'.
+Building file: ../src/jaworekTests.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/include/gstreamer-0.10 -I/usr/include/libxml2 -O0 -g3 -Wall -c -fmessage-length=0 -pthread -MMD -MP -MF"src/jaworekTests.d" -MT"src/jaworekTests.d" -o "src/jaworekTests.o" "../src/jaworekTests.cpp"
+Finished building: ../src/jaworekTests.cpp
+ 
+Building target: jaworekTests
+Invoking: Cross G++ Linker
+g++ -L/usr/lib/i386-linux-gnu -o "jaworekTests"  ./src/jaworekTests.o   -lglib-2.0 -lgobject-2.0 -lgthread-2.0 -lrt -lgstreamer-0.10 -lgmodule-2.0 -lxml2 -lglib-2.0 -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lxml2 -lgthread-2.0 -lrt
+Finished building target: jaworekTests
+ 
 
-10:52:03 Build Finished (took 94ms)
+12:40:57 Build Finished (took 678ms)
 

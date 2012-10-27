@@ -44,7 +44,7 @@ all: jaworekTests
 jaworekTests: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross G++ Linker'
-	g++  -o "jaworekTests" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L/usr/lib/i386-linux-gnu -o "jaworekTests" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
