@@ -6,3 +6,9 @@
 *.exe
 *.o
 *.so
+
+
+# pliki dzwiekowe #
+*.wav
+*.mp3
+
