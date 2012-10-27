@@ -1,6 +1,6 @@
-14:12:06 **** Incremental Build of configuration Debug for project jaworekTests ****
+10:52:03 **** Incremental Build of configuration Debug for project jaworekTests ****
 make all 
 make: Nie ma nic do zrobienia w `all'.
 
-14:12:07 Build Finished (took 61ms)
+10:52:03 Build Finished (took 94ms)
 
