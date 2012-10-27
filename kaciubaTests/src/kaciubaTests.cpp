@@ -146,6 +146,7 @@ main (int   argc,
 //zmiana testowa
   //kolejny test
   //i kolejny test
+  //i nastepny
 
   return 0;
 }
