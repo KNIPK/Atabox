@@ -143,7 +143,7 @@ main (int   argc,
   gst_object_unref (GST_OBJECT (pipeline));
   g_source_remove (bus_watch_id);
   g_main_loop_unref (loop);
-//działa
+//zmiana testowa
   return 0;
 }
 
