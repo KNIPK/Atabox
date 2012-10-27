@@ -145,6 +145,7 @@ main (int   argc,
   g_main_loop_unref (loop);
 //zmiana testowa
   //kolejny test
+  //i kolejny test
 
   return 0;
 }
