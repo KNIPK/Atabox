@@ -16,3 +16,6 @@
 # ide files       #
 ###################
 *.log
+.metadata
+.cproject
+.project
