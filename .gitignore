@@ -9,6 +9,10 @@
 
 
 # pliki dzwiekowe #
+###################
 *.wav
 *.mp3
 
+# ide files       #
+###################
+*.log
