@@ -5,6 +5,9 @@
 // Copyright   : take what you want
 // Description : Hello World in C++, Ansi-style
 //============================================================================
+
+//modyfikacja o 15:07
+
 #include <gst/gst.h>
 #include <iostream>
 
