@@ -144,6 +144,8 @@ main (int   argc,
   g_source_remove (bus_watch_id);
   g_main_loop_unref (loop);
 //zmiana testowa
+  //kolejny test
+
   return 0;
 }
 
