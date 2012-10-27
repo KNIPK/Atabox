@@ -126,12 +126,12 @@ main (int   argc,
 
 
   /* Set the pipeline to "playing" state*/
-  g_print ("Now playing: %s\n", "temp.wav");
+  g_print ("Now recording: %s\n", "temp.wav");
   gst_element_set_state (pipeline, GST_STATE_PLAYING);
 
 
   /* Iterate */
-  g_print ("Running...\n");
+  g_print ("Running... Aby wylaczyc ctrl+c \n");
   g_main_loop_run (loop);
 
 
@@ -144,6 +144,11 @@ main (int   argc,
   g_source_remove (bus_watch_id);
   g_main_loop_unref (loop);
 //zmiana testowa
+
+  //kolejny test
+  //i kolejny test
+  //i nastepny
+
   return 0;
 }
 
