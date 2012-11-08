@@ -17,6 +17,8 @@ bus_call (GstBus     *bus,
 {
   GMainLoop *loop = (GMainLoop *) data;
 
+
+
   switch (GST_MESSAGE_TYPE (msg)) {
 
     case GST_MESSAGE_EOS:
